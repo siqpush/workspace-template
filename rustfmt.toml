@@ -1,0 +1,4 @@
+max_width = 150
+reorder_imports = true
+reorder_modules = true
+remove_nested_parens = true
