@@ -1,4 +1,4 @@
-file::rename(".post2", "post2.rhai");
+file::rename("post2.tmp", "post2.rhai");
 
 let files = file::listdir(".idea");
 for f in files {
