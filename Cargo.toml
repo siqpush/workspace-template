@@ -10,7 +10,7 @@ edition = "2021"
 [workspace]
 resolver = "2"
 members = ["crates/{{project-name}}-bin"]
-default-members = ["{{project-name}}-bin"]
+default-members = ["crates/{{project-name}}-bin"]
 
 [workspace.dependencies]
 anyhow = {version = "*"}
