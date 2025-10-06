@@ -1,0 +1,10 @@
+[package]
+name = "bin"
+description.workspace = true
+authors.workspace = true
+readme.workspace = true
+repository.workspace = true
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
