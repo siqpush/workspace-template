@@ -1,1 +1,0 @@
-file::rename("post2.tmp", "post2.rhai");
