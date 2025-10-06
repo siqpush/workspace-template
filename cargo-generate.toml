@@ -1,5 +1,2 @@
 [template]
-exclude = [".idea", ".idea/*", ".DS_Store"]
-
-[hooks]
-post = ["post1.rhai", "post2.rhai"]
+exclude = [".idea", ".idea/*", ".DS_Store", ".github/workflows/build.yml"]

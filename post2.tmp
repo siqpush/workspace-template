@@ -1,4 +1,0 @@
-let destination_directory = env::destination_directory;
-let full_path = `${destination_directory}/crates/{{project-name}}-bin`;
-print(`${full_path}`);
-system::command(`cargo new --bin ${full_path}`);

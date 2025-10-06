@@ -1,17 +1,17 @@
 [workspace.package]
 name = "{{project-name}}"
 description = """{{description}}"""
-authors = ["{{authors}}"]
+authors = [""]
 readme = "README.md"
-repository = "https://github.com/{{username}}/{{project-name}}.git"
+repository = "https://github.com/siqpush/{{project-name}}.git"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [workspace]
-resolver = "2"
-members = ["crates/{{project-name}}-bin"]
-default-members = ["{{project-name}}-bin"]
+resolver = "3"
+members = ["crates/lib","crates/bin"]
+default-members = ["crates/bin"]
 
 [workspace.dependencies]
-anyhow = {version = "*"}
+
 
